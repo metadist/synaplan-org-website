@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "title": "Synaplan – Digital souveräne KI für die öffentliche Verwaltung",
+    "description": "Die Open-Source-Software Synaplan ermöglicht der öffentlichen Verwaltung den digital souveränen Einsatz von KI und die Integration in openDesk."
+  },
+  "common": {
+    "discoverSynaplan": "Synaplan entdecken",
+    "contactUs": "Kontakt aufnehmen",
+    "readDocs": "Dokumentation lesen"
+  },
+  "nav": {
+    "logoAlt": "Synaplan – zur Startseite",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "sovereignty": "Souveränität",
+    "openSource": "Open Source",
+    "integrations": "Integrationen",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "hero": {
+      "title": "Souverän by design",
+      "subtitle": "Open Source von der KI bis zum Browser",
+      "description": "Die Open-Source-Software Synaplan ermöglicht der öffentlichen Verwaltung den digital souveränen Einsatz von KI – on-premises, DSGVO-konform und integriert in openDesk.",
+      "ctaPrimary": "Warum Souveränität?",
+      "ctaSecondary": "Synaplan ausprobieren",
+      "badges": ["Open Source", "DSGVO-konform", "On-Premises & EU-Cloud", "Kein Vendor-Lock-in"]
+    },
+    "chain": {
+      "kicker": "Unsere Argumentationskette",
+      "title": "Drei Schritte zur digitalen Souveränität",
+      "lead": "Vom Problem über die Open-Source-Antwort bis zur praktischen Integration in Ihre bestehende Verwaltungs-IT."
+    },
+    "pillars": [
+      {
+        "title": "Digitale Souveränität",
+        "text": "Warum der Einsatz nicht-europäischer Cloud- und KI-Dienste konkrete Risiken birgt – und was Souveränität für die öffentliche Verwaltung bedeutet.",
+        "href": "/sovereignty",
+        "cta": "Risiken verstehen"
+      },
+      {
+        "title": "Open-Source-Strategie",
+        "text": "Wie Synaplan die fünf ZenDiS-Kriterien für digitale Souveränität durch konsequente Open-Source-Entwicklung erfüllt.",
+        "href": "/open-source",
+        "cta": "Kriterien ansehen"
+      },
+      {
+        "title": "Integrationen",
+        "text": "Von Outlook über openDesk, Nextcloud und OpenCloud bis zum eigenen Cluster – Souveränität über den gesamten Stack.",
+        "href": "/integrations",
+        "cta": "Integrationen entdecken"
+      }
+    ],
+    "stack": {
+      "kicker": "Souveränität über den gesamten Stack",
+      "headline": "Von Outlook zum Cluster im eigenen Keller – nur dann bleibt man souverän.",
+      "text": "Synaplan verbindet die vertrauten Arbeitsumgebungen Ihrer Mitarbeitenden mit einer KI, die Sie vollständig selbst kontrollieren: vom E-Mail-Client über die Kollaborationsplattform bis zu lokalen Sprachmodellen auf eigener Hardware.",
+      "cta": "Den Stack ansehen"
+    },
+    "cta": {
+      "title": "Sprechen wir über Ihre souveräne KI",
+      "text": "Ob Pilotprojekt, On-Premises-Betrieb oder Integration in openDesk – wir unterstützen die öffentliche Verwaltung beim digital souveränen Einsatz von KI."
+    }
+  },
+  "sovereignty": {
+    "meta": {
+      "title": "Digitale Souveränität",
+      "description": "Was digitale Souveränität für die öffentliche Verwaltung bedeutet und welche Risiken nicht-europäische Cloud- und KI-Dienste bergen."
+    },
+    "hero": {
+      "kicker": "Souveränität",
+      "title": "Digitale Souveränität für die öffentliche Verwaltung",
+      "lead": "Die Digitalisierung der Verwaltung verlangt Technologien, die leistungsstark sind und zugleich höchsten Ansprüchen an Sicherheit und Unabhängigkeit genügen."
+    },
+    "intro": [
+      "Künstliche Intelligenz wird zum festen Bestandteil moderner Verwaltungsprozesse. Doch viele KI-Dienste laufen auf nicht-europäischen Clouds – mit Konsequenzen für Datenschutz, Sicherheit und Handlungsfähigkeit.",
+      "Das Zentrum für Digitale Souveränität (ZenDiS) hat klare Kriterien definiert, die eine digitale Lösung erfüllen muss, um ein Höchstmaß an digitaler Souveränität zu bieten. Synaplan wurde exakt nach diesen Maßstäben entwickelt."
+    ],
+    "risksSection": {
+      "kicker": "Die Risiken",
+      "title": "Fünf Risiken nicht-europäischer Cloud- und KI-Dienste",
+      "lead": "ZenDiS beschreibt diese Risiken beim Einsatz nicht-europäischer Dienste. Mit Synaplan lassen sie sich wesentlich minimieren – ohne auf technische Innovation zu verzichten."
+    },
+    "risks": [
+      {
+        "title": "1. Exterritoriale Rechtszugriffe",
+        "text": "Datenschutzrechtliche Unsicherheiten durch den Zugriff ausländischer Behörden auf personenbezogene Daten."
+      },
+      {
+        "title": "2. Fehlende Kontrolle über Code und Daten",
+        "text": "Eingeschränkte Informationssicherheit, wenn Quellcode und Daten nicht einsehbar oder kontrollierbar sind."
+      },
+      {
+        "title": "3. Technologischer Lock-in",
+        "text": "Inflexibilität durch fehlende Wechseloptionen und die Abhängigkeit von einzelnen Anbietern."
+      },
+      {
+        "title": "4. Unkontrollierbare Kosten",
+        "text": "Steigende Lizenzgebühren für cloudbasierte SaaS-Modelle ohne Kostenobergrenze."
+      },
+      {
+        "title": "5. Fremdgesteuerte Innovation",
+        "text": "Abhängigkeit von den proprietären Entwicklungszyklen globaler Anbieter."
+      }
+    ],
+    "next": {
+      "title": "Die Open-Source-Antwort",
+      "text": "Synaplan adressiert diese Risiken systematisch – durch konsequente Open-Source-Entwicklung im europäischen Ökosystem.",
+      "cta": "Open-Source-Strategie ansehen"
+    }
+  },
+  "openSource": {
+    "meta": {
+      "title": "Open-Source-Strategie",
+      "description": "Wie Synaplan die fünf ZenDiS-Kriterien für digitale Souveränität durch Open Source erfüllt."
+    },
+    "hero": {
+      "kicker": "Open Source",
+      "title": "Souveränität durch Open Source",
+      "lead": "Synaplan erfüllt die ZenDiS-Kriterien für digitale Souveränität – einsehbar, anpassbar und in der europäischen Community entwickelt."
+    },
+    "intro": [
+      "Das Zentrum für Digitale Souveränität (ZenDiS) hat fünf Anforderungen definiert, damit eine digitale Lösung ein Höchstmaß an digitaler Souveränität bietet. Synaplan erfüllt diese Kriterien.",
+      "Erfahren Sie, wie wir die strengen ZenDiS-Anforderungen in die Praxis umsetzen."
+    ],
+    "criteriaSection": {
+      "kicker": "Die ZenDiS-Kriterien",
+      "title": "Fünf Kriterien – fünf Antworten von Synaplan",
+      "lead": "Jede ZenDiS-Anforderung, übersetzt in ein konkretes Synaplan-Versprechen."
+    },
+    "labels": {
+      "requirement": "ZenDiS-Anforderung",
+      "promise": "Synaplan-Versprechen"
+    },
+    "criteria": [
+      {
+        "title": "Höchster Datenschutz: rechtssicher und DSGVO-konform",
+        "requirement": "Ein rechtssicherer Betrieb ohne das Risiko des Zugriffs durch ausländische Behörden.",
+        "promise": "Synaplan lässt sich vollständig DSGVO-konform in Ihren eigenen Systemen (On-Premises) oder in einer sicheren, deutschen Cloud betreiben. Ihre sensiblen Verwaltungsdaten bleiben garantiert dort, wo sie hingehören – geschützt vor dem Zugriff Dritter oder ausländischer Staaten."
+      },
+      {
+        "title": "Volle Freiheit: kein Vendor-Lock-in",
+        "requirement": "Die Gewährleistung der Wechselfähigkeit, um die Abhängigkeit von einzelnen Anbietern zu verhindern.",
+        "promise": "Synaplan setzt auf offene Standards. Sie können Daten und Prozesse jederzeit migrieren und behalten die freie Wahl bei Ihren IT-Dienstleistern. Sprachmodelle lassen sich jederzeit wechseln – Chatdaten, Memories und Dokumente bleiben in Ihrer Synaplan-Instanz erhalten."
+      },
+      {
+        "title": "Absolute Souveränität: volle Kontrolle über Ihr KI-System",
+        "requirement": "Kontrolle und Handlungsfähigkeit – selbst bei Ausfall, Sperrung oder dem Wechsel von Dienstleistern.",
+        "promise": "Synaplan gehört Ihnen. Selbst wenn sich Rahmenbedingungen ändern oder externe Systeme ausfallen, bleibt Ihre KI-Lösung voll einsatzbereit. Sie sind zu keinem Zeitpunkt von der Infrastruktur eines einzelnen Herstellers abhängig."
+      },
+      {
+        "title": "Vertrauen durch Transparenz: einsehbarer Quellcode",
+        "requirement": "Transparenz und Nachvollziehbarkeit der Technologie, etwa durch einsehbaren Code.",
+        "promise": "Keine „Black Box“ für die Verwaltung: Der Quellcode von Synaplan ist auf öffentlichen Repositories (GitHub, Open CoDE) einsehbar und die Funktionsweise vollständig nachvollziehbar. Das schafft die Prüfbarkeit, die der öffentliche Sektor braucht."
+      },
+      {
+        "title": "Zukunftssicher: entwickelt in der europäischen Open-Source-Community",
+        "requirement": "Anpassbarkeit und Gestaltbarkeit der Lösung durch die Community oder eigene Dienstleister.",
+        "promise": "Synaplan wächst mit Ihren Anforderungen. Als Teil des europäischen Open-Source-Ökosystems profitieren Sie von kontinuierlicher Innovation und können die Lösung jederzeit anpassen, erweitern oder durch IT-Dienstleister Ihrer Wahl passgenau zuschneidern lassen."
+      }
+    ],
+    "conclusion": "Synaplan verbindet modernste Künstliche Intelligenz mit den Werten der digitalen Souveränität – sicher, unabhängig und transparent.",
+    "ctaCode": "Quellcode auf GitHub",
+    "ctaNext": "Integrationen ansehen"
+  },
+  "integrations": {
+    "meta": {
+      "title": "Integrationen",
+      "description": "Von Outlook über openDesk, Nextcloud und OpenCloud bis zum eigenen Cluster: Synaplan integriert sich in das europäische Open-Source-Ökosystem."
+    },
+    "hero": {
+      "kicker": "Integrationen",
+      "title": "Von Outlook zum Cluster im eigenen Keller",
+      "lead": "Souveränität entsteht nicht an einem einzelnen Punkt, sondern über den gesamten Technologie-Stack – von der gewohnten Arbeitsumgebung bis zur eigenen Hardware."
+    },
+    "intro": [
+      "Synaplan ist kein isoliertes Werkzeug, sondern Teil eines offenen Ökosystems. Die KI lässt sich dort einsetzen, wo Ihre Mitarbeitenden ohnehin arbeiten – und gleichzeitig vollständig in Ihrer eigenen Infrastruktur betreiben.",
+      "So bleibt der Weg von der E-Mail bis zum Sprachmodell durchgängig in europäischer, souveräner Hand."
+    ],
+    "stackSection": {
+      "kicker": "Der souveräne Stack",
+      "title": "Durchgängig souverän – Schicht für Schicht",
+      "lead": "Jede Ebene bleibt unter Ihrer Kontrolle."
+    },
+    "layers": [
+      {
+        "title": "Outlook & vertraute Clients",
+        "text": "Über das Synaplan-Add-in nutzen Mitarbeitende KI direkt in Outlook – ohne ihre gewohnte Arbeitsumgebung zu verlassen."
+      },
+      {
+        "title": "openDesk – der souveräne Arbeitsplatz",
+        "text": "Synaplan integriert sich in openDesk, den souveränen Arbeitsplatz für die öffentliche Verwaltung, und bringt KI direkt in die tägliche Zusammenarbeit."
+      },
+      {
+        "title": "Nextcloud & OpenCloud",
+        "text": "Dokumente und Wissen aus Nextcloud und OpenCloud werden für RAG und Memories nutzbar – datenschutzkonform und in Ihrer Hand."
+      },
+      {
+        "title": "Synaplan-Kernsoftware",
+        "text": "Das Herzstück: RAG, Memories, Multi-Modell-Routing und Kostenmonitoring – als Open Source vollständig einsehbar."
+      },
+      {
+        "title": "Lokale Modelle & eigener Cluster",
+        "text": "Sprachmodelle laufen auf eigener GPU-Hardware – bis zum „Cluster im eigenen Keller“. Für nicht sensible Aufgaben können bei Bedarf externe LLM-APIs konfiguriert werden."
+      }
+    ],
+    "partnersSection": {
+      "title": "Integrationen im Überblick",
+      "lead": "Synaplan ist Teil des europäischen Open-Source-Ökosystems."
+    },
+    "partners": [
+      {
+        "name": "openDesk",
+        "text": "Der souveräne Arbeitsplatz des ZenDiS – Synaplan bringt KI in die Verwaltungs-Kollaboration."
+      },
+      {
+        "name": "Nextcloud",
+        "text": "Sichere Dateiablage und Zusammenarbeit als Wissensquelle für die KI."
+      },
+      {
+        "name": "OpenCloud",
+        "text": "Europäische Content-Collaboration-Plattform für souveräne Dokumentenarbeit."
+      },
+      {
+        "name": "Outlook",
+        "text": "KI-Unterstützung direkt im E-Mail-Client über das Synaplan-Add-in."
+      }
+    ],
+    "next": {
+      "title": "Bereit für den souveränen Einsatz?",
+      "text": "Wir beraten die öffentliche Verwaltung beim Aufbau einer digital souveränen KI-Landschaft.",
+      "cta": "Kontakt aufnehmen"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Kontakt & Über uns",
+      "description": "Synaplan ist die Open-Source-KI-Plattform für den digital souveränen Einsatz in der öffentlichen Verwaltung. Nehmen Sie Kontakt auf."
+    },
+    "hero": {
+      "kicker": "Kontakt",
+      "title": "Über Synaplan & Kontakt",
+      "lead": "Wir unterstützen die öffentliche Verwaltung beim digital souveränen Einsatz von KI."
+    },
+    "aboutTitle": "Über Synaplan",
+    "about": [
+      "Synaplan ist eine quelloffene KI-Wissensplattform, die Künstliche Intelligenz mit den Werten der digitalen Souveränität verbindet: Datenschutz, Transparenz und Unabhängigkeit.",
+      "Entwickelt im europäischen Open-Source-Ökosystem, ermöglicht Synaplan den On-Premises-Betrieb mit lokalen Modellen ebenso wie die flexible Anbindung externer Sprachmodelle – je nach Schutzbedarf und Aufgabe.",
+      "Synaplan wird von metadist und der Community gepflegt und ist auf öffentlichen Repositories frei verfügbar."
+    ],
+    "founder": "Hinter Synaplan steht die metadist data management GmbH – das Unternehmensvehikel von Gründer und Internet-Pionier <ralf>Ralf Schwöbel</ralf>, der das deutsche Internet seit Ende der 1990er-Jahre maßgeblich mitgestaltet hat: in Regierungsbeiräten ebenso wie in zahlreichen Open-Source-Projekten.",
+    "advisor": "Beratend unterstützt die deutsche Technologie-Managerin <nemat>Claudia Nemat</nemat> als Beirätin und Anteilseignerin den Ansatz der souveränen Software-Architektur und tritt für eine freiheitliche, offene (Open Source) und stabile Infrastruktur ein.",
+    "channelsTitle": "So erreichen Sie uns",
+    "channels": {
+      "email": "E-Mail",
+      "website": "Website",
+      "docs": "Dokumentation",
+      "github": "Quellcode"
+    },
+    "officesTitle": "Unsere Standorte",
+    "officeGermanyLabel": "Deutschland · Hauptsitz",
+    "officeSwitzerlandLabel": "Schweiz",
+    "swissContactLabel": "Ansprechpartner Schweiz",
+    "viewImprint": "Vollständiges Impressum ansehen"
+  },
+  "imprint": {
+    "meta": {
+      "title": "Impressum",
+      "description": "Impressum und rechtliche Angaben zu Synaplan – metadist data management GmbH (Deutschland) und Synaplan Schweiz GmbH (Schweiz)."
+    },
+    "hero": {
+      "kicker": "Rechtliches",
+      "title": "Impressum",
+      "lead": "Anbieter dieser Website und rechtliche Angaben für Deutschland und die Schweiz."
+    },
+    "germanyTitle": "Deutschland",
+    "germanyNote": "Angaben gemäß § 5 TMG",
+    "germanyReference": "Vollständiges Impressum auf synaplan.com",
+    "switzerlandTitle": "Schweiz",
+    "switzerlandNote": "Eingetragen im Handelsregister",
+    "labels": {
+      "company": "Firma",
+      "address": "Anschrift",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "ceo": "Geschäftsführer",
+      "register": "Registergericht",
+      "hrb": "Handelsregister",
+      "vat": "USt-IdNr.",
+      "seat": "Sitz",
+      "domicile": "Rechtsdomizil",
+      "contactPerson": "Ansprechpartner",
+      "legalForm": "Rechtsform",
+      "uid": "Firmennummer (UID)",
+      "registryOffice": "Handelsregisteramt",
+      "statutes": "Statutendatum",
+      "capital": "Stammkapital",
+      "purpose": "Zweck",
+      "publication": "Publikation (SHAB)"
+    },
+    "disclaimerTitle": "Haftungsausschluss",
+    "disclaimerText": "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt verlinkter Seiten sind ausschließlich deren Betreiber verantwortlich.",
+    "copyrightTitle": "Urheberrecht",
+    "copyrightText": "Die auf diesen Seiten erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors."
+  },
+  "footer": {
+    "topics": "Themen",
+    "product": "Produkt",
+    "ecosystem": "Ökosystem",
+    "website": "Website (synaplan.com)",
+    "docs": "Dokumentation",
+    "github": "GitHub",
+    "tagline": "Open Source für den digital souveränen Einsatz von KI in der öffentlichen Verwaltung.",
+    "copyright": "© {year} Synaplan · metadist",
+    "builtWith": "Souverän by design.",
+    "imprint": "Impressum"
+  }
+}

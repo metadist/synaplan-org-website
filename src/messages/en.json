@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "title": "Synaplan – Digitally sovereign AI for public administration",
+    "description": "The open source software Synaplan enables public administration to use AI in a digitally sovereign way and to integrate it into openDesk."
+  },
+  "common": {
+    "discoverSynaplan": "Discover Synaplan",
+    "contactUs": "Get in touch",
+    "readDocs": "Read the docs"
+  },
+  "nav": {
+    "logoAlt": "Synaplan – back to home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "sovereignty": "Sovereignty",
+    "openSource": "Open Source",
+    "integrations": "Integrations",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Sovereign by design",
+      "subtitle": "Open source — from the AI to the browser",
+      "description": "The open source software Synaplan enables public administration to use AI in a digitally sovereign way — on-premises, GDPR-compliant, and integrated into openDesk.",
+      "ctaPrimary": "Why sovereignty?",
+      "ctaSecondary": "Try Synaplan",
+      "badges": ["Open source", "GDPR-compliant", "On-premises & EU cloud", "No vendor lock-in"]
+    },
+    "chain": {
+      "kicker": "Our line of reasoning",
+      "title": "Three steps to digital sovereignty",
+      "lead": "From the problem, to the open source answer, to practical integration into your existing public-sector IT."
+    },
+    "pillars": [
+      {
+        "title": "Digital sovereignty",
+        "text": "Why using non-European cloud and AI services creates concrete risks — and what sovereignty means for public administration.",
+        "href": "/sovereignty",
+        "cta": "Understand the risks"
+      },
+      {
+        "title": "Open source strategy",
+        "text": "How Synaplan meets the five ZenDiS criteria for digital sovereignty through consistent open source development.",
+        "href": "/open-source",
+        "cta": "See the criteria"
+      },
+      {
+        "title": "Integrations",
+        "text": "From Outlook via openDesk, Nextcloud and OpenCloud all the way to your own cluster — sovereignty across the entire stack.",
+        "href": "/integrations",
+        "cta": "Explore integrations"
+      }
+    ],
+    "stack": {
+      "kicker": "Sovereignty across the entire stack",
+      "headline": "From Outlook to the cluster in your own basement — only then do you stay sovereign.",
+      "text": "Synaplan connects the familiar work environments of your staff with an AI you control entirely yourself: from the email client, through the collaboration platform, to local language models on your own hardware.",
+      "cta": "See the stack"
+    },
+    "cta": {
+      "title": "Let's talk about your sovereign AI",
+      "text": "Whether a pilot project, on-premises operation, or integration into openDesk — we support public administration in the digitally sovereign use of AI."
+    }
+  },
+  "sovereignty": {
+    "meta": {
+      "title": "Digital sovereignty",
+      "description": "What digital sovereignty means for public administration and which risks non-European cloud and AI services entail."
+    },
+    "hero": {
+      "kicker": "Sovereignty",
+      "title": "Digital sovereignty for public administration",
+      "lead": "Digitalising public administration requires technology that is both powerful and meets the highest standards of security and independence."
+    },
+    "intro": [
+      "Artificial intelligence is becoming a fixed part of modern administrative processes. Yet many AI services run on non-European clouds — with consequences for data protection, security, and the ability to act.",
+      "The Centre for Digital Sovereignty (ZenDiS) has defined clear criteria that a digital solution must meet to offer the highest degree of digital sovereignty. Synaplan was built precisely to these standards."
+    ],
+    "risksSection": {
+      "kicker": "The risks",
+      "title": "Five risks of non-European cloud and AI services",
+      "lead": "ZenDiS describes these risks when using non-European services. With Synaplan they can be substantially reduced — without giving up technical innovation."
+    },
+    "risks": [
+      {
+        "title": "1. Extraterritorial legal access",
+        "text": "Data-protection uncertainty caused by foreign authorities accessing personal data."
+      },
+      {
+        "title": "2. No control over code and data",
+        "text": "Limited information security when source code and data are neither inspectable nor controllable."
+      },
+      {
+        "title": "3. Technological lock-in",
+        "text": "Inflexibility due to missing exit options and dependence on individual vendors."
+      },
+      {
+        "title": "4. Uncontrollable costs",
+        "text": "Rising license fees for cloud-based SaaS models with no spending cap."
+      },
+      {
+        "title": "5. Externally driven innovation",
+        "text": "Dependence on the proprietary development cycles of global vendors."
+      }
+    ],
+    "next": {
+      "title": "The open source answer",
+      "text": "Synaplan addresses these risks systematically — through consistent open source development within the European ecosystem.",
+      "cta": "See the open source strategy"
+    }
+  },
+  "openSource": {
+    "meta": {
+      "title": "Open source strategy",
+      "description": "How Synaplan meets the five ZenDiS criteria for digital sovereignty through open source."
+    },
+    "hero": {
+      "kicker": "Open Source",
+      "title": "Sovereignty through open source",
+      "lead": "Synaplan meets the ZenDiS criteria for digital sovereignty — inspectable, adaptable, and developed in the European community."
+    },
+    "intro": [
+      "The Centre for Digital Sovereignty (ZenDiS) has defined five requirements for a digital solution to offer the highest degree of digital sovereignty. Synaplan meets these criteria.",
+      "Here is how we put the strict ZenDiS requirements into practice."
+    ],
+    "criteriaSection": {
+      "kicker": "The ZenDiS criteria",
+      "title": "Five criteria — five answers from Synaplan",
+      "lead": "Every ZenDiS requirement, translated into a concrete Synaplan promise."
+    },
+    "labels": {
+      "requirement": "ZenDiS requirement",
+      "promise": "Synaplan promise"
+    },
+    "criteria": [
+      {
+        "title": "Maximum data protection: lawful and GDPR-compliant",
+        "requirement": "Lawful operation without the risk of access by foreign authorities.",
+        "promise": "Synaplan can be operated fully GDPR-compliant in your own systems (on-premises) or in a secure, German cloud. Your sensitive administrative data is guaranteed to stay where it belongs — protected from access by third parties or foreign states."
+      },
+      {
+        "title": "Full freedom: no vendor lock-in",
+        "requirement": "Ensuring the ability to switch, to prevent dependence on individual vendors.",
+        "promise": "Synaplan relies on open standards. You can migrate data and processes at any time and keep the free choice of your IT service providers. Language models can be switched at any point — chat data, memories, and documents remain in your Synaplan instance."
+      },
+      {
+        "title": "Absolute sovereignty: full control over your AI system",
+        "requirement": "Control and the ability to act — even in the event of outage, blocking, or a change of provider.",
+        "promise": "Synaplan is yours. Even if conditions change or external systems fail, your AI solution remains fully operational. At no point are you dependent on the infrastructure of a single vendor."
+      },
+      {
+        "title": "Trust through transparency: inspectable source code",
+        "requirement": "Transparency and traceability of the technology, e.g. through inspectable code.",
+        "promise": "No “black box” for public administration: Synaplan's source code is available on public repositories (GitHub, Open CoDE) and how it works is fully traceable. This creates the verifiability the public sector needs."
+      },
+      {
+        "title": "Future-proof: developed in the European open source community",
+        "requirement": "The solution can be adapted and shaped by the community or your own service providers.",
+        "promise": "Synaplan grows with your requirements. As part of the European open source ecosystem, you benefit from continuous innovation and can adapt, extend, or have the solution tailored precisely by the IT service providers of your choice at any time."
+      }
+    ],
+    "conclusion": "Synaplan combines state-of-the-art artificial intelligence with the values of digital sovereignty — secure, independent, and transparent.",
+    "ctaCode": "Source code on GitHub",
+    "ctaNext": "See integrations"
+  },
+  "integrations": {
+    "meta": {
+      "title": "Integrations",
+      "description": "From Outlook via openDesk, Nextcloud and OpenCloud to your own cluster: Synaplan integrates into the European open source ecosystem."
+    },
+    "hero": {
+      "kicker": "Integrations",
+      "title": "From Outlook to the cluster in your own basement",
+      "lead": "Sovereignty is not created at a single point, but across the entire technology stack — from the familiar work environment to your own hardware."
+    },
+    "intro": [
+      "Synaplan is not an isolated tool but part of an open ecosystem. The AI can be used where your staff already work — and at the same time run entirely within your own infrastructure.",
+      "This keeps the path from the email all the way to the language model consistently in European, sovereign hands."
+    ],
+    "stackSection": {
+      "kicker": "The sovereign stack",
+      "title": "Sovereign end to end — layer by layer",
+      "lead": "Every layer stays under your control."
+    },
+    "layers": [
+      {
+        "title": "Outlook & familiar clients",
+        "text": "With the Synaplan add-in, staff use AI directly in Outlook — without leaving their familiar work environment."
+      },
+      {
+        "title": "openDesk — the sovereign workplace",
+        "text": "Synaplan integrates into openDesk, the sovereign workplace for public administration, bringing AI directly into daily collaboration."
+      },
+      {
+        "title": "Nextcloud & OpenCloud",
+        "text": "Documents and knowledge from Nextcloud and OpenCloud become usable for RAG and memories — data-protection-compliant and in your hands."
+      },
+      {
+        "title": "Synaplan core software",
+        "text": "The heart of it: RAG, memories, multi-model routing, and cost monitoring — fully inspectable as open source."
+      },
+      {
+        "title": "Local models & your own cluster",
+        "text": "Language models run on your own GPU hardware — right down to the “cluster in your own basement”. For non-sensitive tasks, external LLM APIs can be configured as needed."
+      }
+    ],
+    "partnersSection": {
+      "title": "Integrations at a glance",
+      "lead": "Synaplan is part of the European open source ecosystem."
+    },
+    "partners": [
+      {
+        "name": "openDesk",
+        "text": "ZenDiS's sovereign workplace — Synaplan brings AI into administrative collaboration."
+      },
+      {
+        "name": "Nextcloud",
+        "text": "Secure file storage and collaboration as a knowledge source for the AI."
+      },
+      {
+        "name": "OpenCloud",
+        "text": "European content-collaboration platform for sovereign document work."
+      },
+      {
+        "name": "Outlook",
+        "text": "AI support directly in the email client via the Synaplan add-in."
+      }
+    ],
+    "next": {
+      "title": "Ready for sovereign deployment?",
+      "text": "We advise public administration on building a digitally sovereign AI landscape.",
+      "cta": "Get in touch"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact & about",
+      "description": "Synaplan is the open source AI platform for digitally sovereign use in public administration. Get in touch."
+    },
+    "hero": {
+      "kicker": "Contact",
+      "title": "About Synaplan & contact",
+      "lead": "We support public administration in the digitally sovereign use of AI."
+    },
+    "aboutTitle": "About Synaplan",
+    "about": [
+      "Synaplan is an open source AI knowledge platform that combines artificial intelligence with the values of digital sovereignty: data protection, transparency, and independence.",
+      "Developed within the European open source ecosystem, Synaplan enables on-premises operation with local models as well as the flexible connection of external language models — depending on protection needs and task.",
+      "Synaplan is maintained by metadist and the community and is freely available on public repositories."
+    ],
+    "founder": "Behind Synaplan stands metadist data management GmbH — the company vehicle of founder and internet pioneer <ralf>Ralf Schwöbel</ralf>, who has significantly shaped the German internet since the late 1990s: in government advisory boards as well as in numerous open source projects.",
+    "advisor": "The German technology executive <nemat>Claudia Nemat</nemat> supports the sovereign software-architecture approach as an advisory board member and shareholder, advocating for a free, open (open source) and stable infrastructure.",
+    "channelsTitle": "How to reach us",
+    "channels": {
+      "email": "Email",
+      "website": "Website",
+      "docs": "Documentation",
+      "github": "Source code"
+    },
+    "officesTitle": "Our offices",
+    "officeGermanyLabel": "Germany · Headquarters",
+    "officeSwitzerlandLabel": "Switzerland",
+    "swissContactLabel": "Contact Switzerland",
+    "viewImprint": "View the full imprint"
+  },
+  "imprint": {
+    "meta": {
+      "title": "Imprint",
+      "description": "Imprint and legal information for Synaplan – metadist data management GmbH (Germany) and Synaplan Schweiz GmbH (Switzerland)."
+    },
+    "hero": {
+      "kicker": "Legal",
+      "title": "Imprint",
+      "lead": "Provider of this website and legal information for Germany and Switzerland."
+    },
+    "germanyTitle": "Germany",
+    "germanyNote": "Information pursuant to § 5 TMG",
+    "germanyReference": "Full imprint on synaplan.com",
+    "switzerlandTitle": "Switzerland",
+    "switzerlandNote": "Registered in the commercial register",
+    "labels": {
+      "company": "Company",
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone",
+      "ceo": "Managing Director",
+      "register": "Register court",
+      "hrb": "Commercial register",
+      "vat": "VAT ID",
+      "seat": "Registered seat",
+      "domicile": "Legal domicile",
+      "contactPerson": "Contact",
+      "legalForm": "Legal form",
+      "uid": "Company number (UID)",
+      "registryOffice": "Commercial registry office",
+      "statutes": "Date of statutes",
+      "capital": "Share capital",
+      "purpose": "Purpose",
+      "publication": "Publication (SOGC)"
+    },
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerText": "Despite careful content control, we assume no liability for the content of external links. The operators of linked pages are solely responsible for their content.",
+    "copyrightTitle": "Copyright",
+    "copyrightText": "The contents and works created on these pages are subject to German copyright law. Reproduction, adaptation, distribution and any form of utilisation outside the limits of copyright require the written consent of the respective author."
+  },
+  "footer": {
+    "topics": "Topics",
+    "product": "Product",
+    "ecosystem": "Ecosystem",
+    "website": "Website (synaplan.com)",
+    "docs": "Documentation",
+    "github": "GitHub",
+    "tagline": "Open source for the digitally sovereign use of AI in public administration.",
+    "copyright": "© {year} Synaplan · metadist",
+    "builtWith": "Sovereign by design.",
+    "imprint": "Imprint"
+  }
+}

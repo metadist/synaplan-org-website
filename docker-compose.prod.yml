@@ -1,0 +1,18 @@
+services:
+  # ─── Next.js static content site (pre-built image from GHCR) ──────────────────
+  # Published at www.synaplan.eu (synaplan.org redirects here), runs alongside
+  # ch1.synaplan.com on the same Docker host behind the reverse proxy
+  # (app listens on 127.0.0.1:<PORT>).
+  web:
+    image: ghcr.io/metadist/synaplan-org-website:latest
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${PORT:-3000}:3000"
+    environment:
+      NODE_ENV: production
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:3000/api/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
