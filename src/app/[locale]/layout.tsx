@@ -8,6 +8,7 @@ import { SITE_URL } from "@/lib/constants";
 import { localeUrl } from "@/lib/seo";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { CookieConsent } from "@/components/cookie-consent";
 import "../globals.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -114,6 +115,7 @@ export default async function LocaleLayout({
           <SiteHeader />
           <main className="flex-1">{children}</main>
           <SiteFooter />
+          <CookieConsent />
         </NextIntlClientProvider>
       </body>
     </html>

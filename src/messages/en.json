@@ -1,4 +1,12 @@
 {
+  "cookieConsent": {
+    "title": "Cookies & analytics",
+    "description": "We use cookies and privacy-friendly traffic measurement (basic access statistics) to improve this website. You can find the details in our",
+    "privacyLink": "privacy policy",
+    "accept": "Accept",
+    "decline": "Decline & delete data",
+    "wipeConfirm": "This site wants to delete all domain cookies and clear the page cache. Please confirm!"
+  },
   "meta": {
     "title": "Synaplan – Digitally sovereign AI for public administration",
     "description": "The open source software Synaplan enables public administration to use AI in a digitally sovereign way and to integrate it into openDesk."

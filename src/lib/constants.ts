@@ -22,3 +22,11 @@ export const NAV_ITEMS = [
   { href: "/open-source", key: "openSource" },
   { href: "/integrations", key: "integrations" },
 ] as const;
+
+/**
+ * Locale-aware link to the canonical Synaplan privacy policy on synaplan.com.
+ * Only `de` and `en` exist there, so French falls back to English.
+ */
+export function privacyPolicyUrl(locale: string): string {
+  return `https://www.synaplan.com/${locale === "de" ? "de" : "en"}/privacy-policy`;
+}

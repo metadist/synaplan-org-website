@@ -1,4 +1,12 @@
 {
+  "cookieConsent": {
+    "title": "Cookies et analyse",
+    "description": "Nous utilisons des cookies et une mesure d'audience respectueuse de la vie privée (statistiques d'accès de base) pour améliorer ce site. Vous trouverez les détails dans notre",
+    "privacyLink": "politique de confidentialité",
+    "accept": "Accepter",
+    "decline": "Refuser et supprimer les données",
+    "wipeConfirm": "Ce site souhaite supprimer tous les cookies du domaine et vider le cache de la page. Veuillez confirmer !"
+  },
   "meta": {
     "title": "Synaplan – Une IA souveraine pour l'administration publique",
     "description": "Le logiciel open source Synaplan permet à l'administration publique d'utiliser l'IA de manière numériquement souveraine et de l'intégrer à openDesk."

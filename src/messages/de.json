@@ -1,4 +1,12 @@
 {
+  "cookieConsent": {
+    "title": "Cookies & Analyse",
+    "description": "Wir nutzen Cookies und eine datenschutzfreundliche Reichweitenmessung (grundlegende Zugriffsstatistiken), um diese Website zu verbessern. Details finden Sie in unserer",
+    "privacyLink": "Datenschutzerklärung",
+    "accept": "Einverstanden",
+    "decline": "Ablehnen & Daten löschen",
+    "wipeConfirm": "Diese Website möchte alle Cookies der Domain löschen und den Seiten-Cache leeren. Bitte bestätigen Sie!"
+  },
   "meta": {
     "title": "Synaplan – Digital souveräne KI für die öffentliche Verwaltung",
     "description": "Die Open-Source-Software Synaplan ermöglicht der öffentlichen Verwaltung den digital souveränen Einsatz von KI und die Integration in openDesk."
