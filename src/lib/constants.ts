@@ -5,6 +5,7 @@ export const SITE_URL = "https://www.synaplan.eu";
 export const LINKS = {
   web: "https://www.synaplan.com",
   docs: "https://docs.synaplan.com",
+  synamail: "https://docs.synaplan.com/synamail",
   imprintDe: "https://www.synaplan.com/de/imprint",
   github: "https://github.com/metadist/synaplan",
   openCode: "https://gitlab.opencode.de/",

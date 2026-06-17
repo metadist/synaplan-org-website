@@ -193,7 +193,7 @@
     "layers": [
       {
         "title": "Outlook & familiar clients",
-        "text": "With the Synaplan add-in, staff use AI directly in Outlook — without leaving their familiar work environment."
+        "text": "With the Synamail add-in, staff ask AI questions straight from Outlook — and every question is answered by your own self-hosted Synaplan install, never a foreign vendor cloud. Sovereignty starts in the tool people already use every day."
       },
       {
         "title": "openDesk — the sovereign workplace",
@@ -230,8 +230,8 @@
         "text": "European content-collaboration platform for sovereign document work."
       },
       {
-        "name": "Outlook",
-        "text": "AI support directly in the email client via the Synaplan add-in."
+        "name": "Synamail",
+        "text": "The open-source Outlook add-in: AI questions from the inbox, routed to your own Synaplan install for full sovereignty."
       }
     ],
     "next": {

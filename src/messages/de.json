@@ -193,7 +193,7 @@
     "layers": [
       {
         "title": "Outlook & vertraute Clients",
-        "text": "Über das Synaplan-Add-in nutzen Mitarbeitende KI direkt in Outlook – ohne ihre gewohnte Arbeitsumgebung zu verlassen."
+        "text": "Über das Synamail-Add-in stellen Mitarbeitende KI-Fragen direkt aus Outlook – und jede Frage wird von Ihrer eigenen, selbst gehosteten Synaplan-Installation beantwortet, niemals von einer fremden Anbieter-Cloud. Souveränität beginnt im Werkzeug, das ohnehin täglich genutzt wird."
       },
       {
         "title": "openDesk – der souveräne Arbeitsplatz",
@@ -230,8 +230,8 @@
         "text": "Europäische Content-Collaboration-Plattform für souveräne Dokumentenarbeit."
       },
       {
-        "name": "Outlook",
-        "text": "KI-Unterstützung direkt im E-Mail-Client über das Synaplan-Add-in."
+        "name": "Synamail",
+        "text": "Das quelloffene Outlook-Add-in: KI-Fragen aus dem Postfach, geleitet an Ihre eigene Synaplan-Installation – für volle Souveränität."
       }
     ],
     "next": {

@@ -27,7 +27,7 @@ const PARTNER_LINKS: Record<string, string> = {
   openDesk: LINKS.openDesk,
   Nextcloud: LINKS.nextcloud,
   OpenCloud: LINKS.openCloud,
-  Outlook: "https://www.microsoft.com/microsoft-365/outlook",
+  Synamail: LINKS.synamail,
 };
 
 export default async function IntegrationsPage({

@@ -193,7 +193,7 @@
     "layers": [
       {
         "title": "Outlook & clients familiers",
-        "text": "Grâce au complément Synaplan, les agents utilisent l'IA directement dans Outlook — sans quitter leur environnement de travail habituel."
+        "text": "Grâce au complément Synamail, les agents posent des questions à l'IA directement depuis Outlook — et chaque question est traitée par votre propre installation Synaplan auto-hébergée, jamais par le cloud d'un fournisseur étranger. La souveraineté commence dans l'outil utilisé au quotidien."
       },
       {
         "title": "openDesk — le poste de travail souverain",
@@ -230,8 +230,8 @@
         "text": "Plateforme européenne de collaboration de contenu pour un travail documentaire souverain."
       },
       {
-        "name": "Outlook",
-        "text": "Assistance par l'IA directement dans le client de messagerie via le complément Synaplan."
+        "name": "Synamail",
+        "text": "Le complément Outlook open source : des questions d'IA depuis la boîte de réception, acheminées vers votre propre installation Synaplan — pour une souveraineté totale."
       }
     ],
     "next": {
