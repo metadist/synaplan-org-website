@@ -321,6 +321,7 @@
     "tagline": "Open Source für den digital souveränen Einsatz von KI in der öffentlichen Verwaltung.",
     "copyright": "© {year} Synaplan · metadist",
     "builtWith": "Souverän by design.",
-    "imprint": "Impressum"
+    "imprint": "Impressum",
+    "osbaHint": "Mitglied der Open Source Business Alliance"
   }
 }

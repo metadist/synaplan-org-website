@@ -321,6 +321,7 @@
     "tagline": "Open source pour un usage numériquement souverain de l'IA dans l'administration publique.",
     "copyright": "© {year} Synaplan · metadist",
     "builtWith": "Souverain par conception.",
-    "imprint": "Mentions légales"
+    "imprint": "Mentions légales",
+    "osbaHint": "Membre de l'Open Source Business Alliance"
   }
 }
