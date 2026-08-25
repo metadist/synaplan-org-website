@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { LINKS } from "@/lib/constants";
+import { OsbaMemberBadge } from "@/components/osba-member-badge";
 import { SynaplanLogo } from "@/components/synaplan-logo";
 
 export function SiteFooter() {
@@ -76,7 +77,11 @@ export function SiteFooter() {
           ))}
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
+        <div className="mt-12 flex justify-center border-t border-white/10 pt-8 sm:justify-start">
+          <OsbaMemberBadge hint={t("footer.osbaHint")} />
+        </div>
+
+        <div className="mt-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-xs text-neutral-500">{t("footer.copyright", { year })}</p>
           <div className="flex items-center gap-4">
             <Link

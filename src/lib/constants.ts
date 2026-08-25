@@ -14,6 +14,7 @@ export const LINKS = {
   nextcloud: "https://nextcloud.com/",
   openCloud: "https://opencloud.eu/",
   zendis: "https://www.zendis.de/",
+  osba: "https://osb-alliance.de/",
 } as const;
 
 /** Main navigation — the argumentation chain + About/Contact. */

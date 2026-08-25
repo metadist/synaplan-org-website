@@ -155,3 +155,7 @@ docker compose -f docker-compose.prod.yml up -d
 ## License
 
 See [`LICENSE`](./LICENSE).
+
+<p align="center">
+  <a href="https://osb-alliance.de/" target="_blank" rel="noopener noreferrer"><img src="public/osba-member.png" alt="OSBA" width="180" height="90"></a>
+</p>
