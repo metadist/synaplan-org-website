@@ -321,6 +321,312 @@
     "tagline": "Open source for the digitally sovereign use of AI in public administration.",
     "copyright": "© {year} Synaplan · metadist",
     "builtWith": "Sovereign by design.",
-    "imprint": "Imprint"
+    "imprint": "Imprint",
+    "trust": "Trust & evidence"
+  },
+  "trust": {
+    "meta": {
+      "title": "Trust and evidence – Synaplan",
+      "description": "DPA, safeguards, subprocessors, data flow, the AI Act, security and availability of the hosted platform. Checked 6 November 2026."
+    },
+    "hero": {
+      "kicker": "For buyers and privacy teams",
+      "title": "What we do with data",
+      "lead": "One page for the questions a public body or a company asks before it books Synaplan. Short sentences. Only what the service does today.",
+      "checked": "Checked 6 November 2026, against the synaplan.com privacy policy and the operation of web.synaplan.com."
+    },
+    "tocLabel": "On this page",
+    "toc": [
+      {
+        "id": "minute",
+        "label": "In one minute"
+      },
+      {
+        "id": "avv",
+        "label": "DPA"
+      },
+      {
+        "id": "toms",
+        "label": "Safeguards"
+      },
+      {
+        "id": "processors",
+        "label": "Subprocessors"
+      },
+      {
+        "id": "flow",
+        "label": "Where a chat goes"
+      },
+      {
+        "id": "aiact",
+        "label": "AI Act"
+      },
+      {
+        "id": "security",
+        "label": "Security and incidents"
+      },
+      {
+        "id": "availability",
+        "label": "Availability"
+      },
+      {
+        "id": "access",
+        "label": "Accessibility"
+      },
+      {
+        "id": "open",
+        "label": "What is still missing"
+      }
+    ],
+    "minutesTitle": "In one minute",
+    "minutesLead": "The hosted platform is web.synaplan.com. The operator is metadist data management GmbH in Düsseldorf.",
+    "minutes": [
+      "Chats, files and accounts of the hosted platform sit on servers in Germany at Hetzner.",
+      "Synaplan does not train models on that content.",
+      "A cloud model sees a text only when that model is selected for the answer.",
+      "If you run Synaplan yourself, the content stays with you. This page does not describe your installation."
+    ],
+    "avv": {
+      "title": "Data processing agreement",
+      "lead": "On the hosted platform the customer is the controller and metadist is the processor.",
+      "draft": "The text below is the template of 6 November 2026. The data protection officer has not signed it off. It does not replace a signed contract.",
+      "points": [
+        "It covers web.synaplan.com. It does not automatically cover an installation you run yourself.",
+        "It names the subject, the data, the people, the instructions, deletion, and the subprocessor list.",
+        "The contract language is German."
+      ],
+      "language": "The other languages on this page explain the template. The signature copy is the German text.",
+      "openContract": "Read the contract text",
+      "ask": "Ask for the copy to sign",
+      "clauses": [
+        {
+          "title": "1. Parteien",
+          "body": "Auftraggeber ist die Stelle, die Synaplan gehostet nutzt. Auftragnehmerin ist die metadist data management GmbH, Königsallee 82, 40212 Düsseldorf, Deutschland."
+        },
+        {
+          "title": "2. Gegenstand und Dauer",
+          "body": "Gegenstand ist der Betrieb der gehosteten Plattform unter web.synaplan.com für den Auftraggeber. Der Vertrag gilt für die Laufzeit des Nutzungsvertrags und endet mit ihm."
+        },
+        {
+          "title": "3. Art und Zweck",
+          "body": "Die Auftragnehmerin stellt die Plattform bereit: Konten, Gespräche, Dateien, Wissenssuche, das Website-Widget und die Kanäle, die der Auftraggeber selbst einschaltet."
+        },
+        {
+          "title": "4. Art der Daten",
+          "body": "Kontaktdaten der Nutzerinnen und Nutzer, Inhalte von Gesprächen, hochgeladene Dateien, Nutzungsdaten und Abrechnungsdaten."
+        },
+        {
+          "title": "5. Betroffene Personen",
+          "body": "Beschäftigte des Auftraggebers und Personen, die das Widget oder einen vom Auftraggeber eingeschalteten Kanal nutzen."
+        },
+        {
+          "title": "6. Weisungen",
+          "body": "Verarbeitet wird nur auf Weisung. Weisung sind dieser Vertrag und die Einstellungen im Konto. Eine Weisung, die gegen Recht verstößt, wird nicht ausgeführt. Die Auftragnehmerin sagt das dem Auftraggeber."
+        },
+        {
+          "title": "7. Vertraulichkeit",
+          "body": "Personen, die Daten sehen, sind zur Vertraulichkeit verpflichtet."
+        },
+        {
+          "title": "8. Sicherheit",
+          "body": "Die Schutzmaßnahmen sind die TOMs auf dieser Seite, mit dem dort genannten Stand. Die Auftragnehmerin behauptet keine Maßnahme, die dort nicht steht."
+        },
+        {
+          "title": "9. Unterauftragnehmer",
+          "body": "Die Unterauftragnehmer stehen in der Liste auf dieser Seite. Ein neuer Name wird auf der Seite veröffentlicht, bevor er Daten sieht. Der Auftraggeber kann widersprechen. Dann suchen beide eine andere Lösung oder beenden den Vertrag."
+        },
+        {
+          "title": "10. Rechte der betroffenen Personen",
+          "body": "Die Auftragnehmerin hilft bei Auskunft, Berichtigung, Löschung und Export. Dafür gibt es Funktionen in der Software. Was die Software nicht kann, beantwortet sie auf Anfrage an privacy@synaplan.com."
+        },
+        {
+          "title": "11. Löschung",
+          "body": "Nach dem Ende des Vertrags werden die Kontodaten gelöscht, soweit kein Gesetz das Aufbewahren verlangt. Der Auftraggeber kann vorher exportieren."
+        },
+        {
+          "title": "12. Nachweis",
+          "body": "Auf Anfrage beschreibt die Auftragnehmerin die TOMs. Ein Audit vor Ort wird verabredet und sieht keine Daten anderer Kunden."
+        },
+        {
+          "title": "13. Ort der Verarbeitung",
+          "body": "Die gehostete Plattform steht in Deutschland. Ein Gespräch verlässt die EU nur, wenn der Auftraggeber ein Modell einschaltet, das außerhalb der EU antwortet. Das Einschalten ist seine Weisung."
+        },
+        {
+          "title": "14. Eigenbetrieb",
+          "body": "Betreibt der Auftraggeber Synaplan selbst, ist die metadist data management GmbH nicht Auftragsverarbeiterin der Inhalte. Sieht ihr Personal im Support in das System, braucht das einen eigenen kurzen Vertrag."
+        }
+      ]
+    },
+    "toms": {
+      "title": "Safeguards",
+      "lead": "These are the measures we can show for the hosted service. Article 32 GDPR.",
+      "items": [
+        {
+          "title": "Encrypted connection",
+          "text": "The website and the platform are served over HTTPS. The privacy policy says the same."
+        },
+        {
+          "title": "Location Germany",
+          "text": "The hosted platform runs on Hetzner servers in Germany. Cloudflare sits in front, for delivery and protection."
+        },
+        {
+          "title": "Database on three servers",
+          "text": "The database is kept in step across three servers. If one stops, the others keep serving."
+        },
+        {
+          "title": "Operator access",
+          "text": "Operators sign in with a key. The usual SSH port 22 is closed."
+        },
+        {
+          "title": "A log inside the product",
+          "text": "The software keeps an audit log for 365 days unless that value is changed. Deleting an account goes through the product's deletion path."
+        },
+        {
+          "title": "No training",
+          "text": "Chat and file content is not used to train models."
+        }
+      ],
+      "limitsTitle": "What we do not claim",
+      "limits": [
+        "There is no external pentest yet, no ISO 27001 certificate, and no BSI C5 attestation.",
+        "The container images are not signed yet, and we do not publish an SBOM yet.",
+        "We do not claim encrypted disks, and we do not claim a second copy of every search index.",
+        "The data protection officer has not reviewed this list yet."
+      ]
+    },
+    "processors": {
+      "title": "Subprocessors",
+      "lead": "These parties see data of the hosted platform or of the websites. A cloud model is in the list only for the answer that selected it.",
+      "region": "Place",
+      "trains": "Training on your content",
+      "rows": [
+        {
+          "name": "metadist data management GmbH",
+          "role": "Runs web.synaplan.com and this website.",
+          "region": "Germany",
+          "trains": "No."
+        },
+        {
+          "name": "Hetzner Online GmbH",
+          "role": "Provides the servers for the website and the hosted platform.",
+          "region": "Germany",
+          "trains": "No. Hosting only."
+        },
+        {
+          "name": "Cloudflare Germany GmbH",
+          "role": "Delivers the sites and filters attacks. Sees connection data.",
+          "region": "Company in Germany, network worldwide",
+          "trains": "No."
+        },
+        {
+          "name": "Amazon Web Services EMEA SARL",
+          "role": "Sends account mail through Amazon SES in eu-west-1. Sees the address and the mail we send, not the chats.",
+          "region": "Ireland",
+          "trains": "No."
+        },
+        {
+          "name": "Stripe",
+          "role": "Takes payment when someone pays for a hosted plan. Sees payment data, not the chats.",
+          "region": "EU and USA",
+          "trains": "No."
+        },
+        {
+          "name": "The selected model",
+          "role": "OpenAI, Anthropic, Google, xAI and Groq are in the USA. Mistral is in the EU. A local model such as Ollama stays on the server. The text of an answer goes only to the model selected for it.",
+          "region": "Depends on the model",
+          "trains": "Synaplan does not train. Whether the model provider stores the API call is in that provider's contract. We do not promise zero retention at the provider."
+        },
+        {
+          "name": "Google",
+          "role": "Only when someone signs in with Google. Sees the sign-in, not the chats.",
+          "region": "USA",
+          "trains": "No, for the chats."
+        },
+        {
+          "name": "Meta (WhatsApp) and Telegram",
+          "role": "Only when the customer turns that channel on. Messages on that channel also pass through that service.",
+          "region": "Depends on the service",
+          "trains": "Synaplan does not train. The channel provider has its own rules."
+        }
+      ]
+    },
+    "flow": {
+      "title": "Where a chat goes",
+      "lead": "Three paths. The installation and the selected model decide which one applies.",
+      "paths": [
+        {
+          "title": "Hosted, local model",
+          "text": "The answer is produced on the servers in Germany. The text is not sent to a model provider."
+        },
+        {
+          "title": "Hosted, cloud model",
+          "text": "Synaplan stores the chat in Germany and sends the text needed for that answer to that one provider. Other providers do not see it."
+        },
+        {
+          "title": "You run it",
+          "text": "The content stays in the customer's installation. metadist sees it only when the customer explicitly gives us access for support."
+        }
+      ],
+      "doc": "Technical note in the source repository"
+    },
+    "aiAct": {
+      "title": "AI Act",
+      "lead": "Synaplan is the software an organisation uses to deploy AI. Synaplan is not the company that trains the model. The organisation that runs Synaplan for its people is the deployer.",
+      "doesTitle": "What the software does",
+      "does": [
+        "Mail, WhatsApp, Telegram and the website widget say that an AI is answering.",
+        "A generated image, audio file or video keeps a mark from the model provider. When signing is on, Synaplan signs the file as well.",
+        "The page “Using AI well” explains in ten short sections what a model can and cannot do. An organisation can ask its people to read it once. Nobody is locked out."
+      ],
+      "deployerTitle": "What the deployer still does",
+      "deployer": [
+        "Say, in its own channels, who is responsible for the assistant.",
+        "Decide which data may be pasted into a chat.",
+        "Keep a person in the loop before a draft is sent, published or filed."
+      ],
+      "doc": "The longer product note"
+    },
+    "security": {
+      "title": "Security and AI incidents",
+      "lead": "A software weakness and an AI incident are two different reports.",
+      "vulnTitle": "A software weakness",
+      "vuln": "Please do not describe a weakness in public. The private report is on GitHub. We confirm it within three working days. If you cannot use GitHub, write to privacy@synaplan.com and put the details only in the reply.",
+      "incidentTitle": "An AI incident",
+      "incident": "An AI incident means: the assistant discloses data it should not, a generated file is marked in a way that misleads people, or an answer causes harm that the deployer reports to us. Mail privacy@synaplan.com with the subject “AI incident”. We reply within 24 hours and say what happened, who is affected, and what we changed. If the first reply is not enough, reply with the word escalation. The management of metadist data management GmbH then sees the report.",
+      "doc": "Security policy in the source repository"
+    },
+    "availability": {
+      "title": "Availability",
+      "lead": "This is the commitment for the hosted platform. A service credit belongs in the offer, not on this page.",
+      "items": [
+        "Target: 99.5 percent in a calendar month for web.synaplan.com, excluding announced maintenance.",
+        "We announce maintenance at least 14 days ahead, outside Monday to Friday, 07:00 to 18:00 (Europe/Berlin).",
+        "Support replies within one working day.",
+        "There is no separate status page yet.",
+        "If you run Synaplan yourself, availability is yours."
+      ]
+    },
+    "access": {
+      "title": "Accessibility",
+      "lead": "The target is WCAG 2.1 AA, and with it BITV 2.0. A finished BITV audit does not exist yet.",
+      "items": [
+        "The product rules require enough contrast for text and for large text.",
+        "Known gap: there is no published BITV 2.0 test report.",
+        "Report a barrier on this page or in the software to privacy@synaplan.com. We reply within one working day."
+      ]
+    },
+    "open": {
+      "title": "What is still missing",
+      "lead": "Tenders often ask for these. We do not have them yet.",
+      "items": [
+        "External pentest: planned for the first quarter of 2027, not commissioned yet.",
+        "ISO 27001 and BSI C5: not in place.",
+        "Signed images and an SBOM: planned, not published.",
+        "A public status page: not in place."
+      ],
+      "privacyBefore": "The marketing-site privacy policy is on",
+      "privacy": "synaplan.com",
+      "contactBefore": "Questions about this page"
+    }
   }
 }

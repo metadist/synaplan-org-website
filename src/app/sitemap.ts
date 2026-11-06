@@ -14,6 +14,7 @@ const PATHS: PathConfig[] = [
   { path: "/sovereignty", priority: 0.9, changeFrequency: "monthly" },
   { path: "/open-source", priority: 0.9, changeFrequency: "monthly" },
   { path: "/integrations", priority: 0.9, changeFrequency: "monthly" },
+  { path: "/trust", priority: 0.8, changeFrequency: "monthly" },
   { path: "/contact", priority: 0.7, changeFrequency: "yearly" },
   { path: "/imprint", priority: 0.3, changeFrequency: "yearly" },
 ];
