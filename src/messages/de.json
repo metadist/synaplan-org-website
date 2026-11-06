@@ -322,7 +322,8 @@
     "copyright": "© {year} Synaplan · metadist",
     "builtWith": "Souverän by design.",
     "imprint": "Impressum",
-    "trust": "Vertrauen & Nachweise"
+    "trust": "Vertrauen & Nachweise",
+    "status": "Status"
   },
   "trust": {
     "meta": {
@@ -389,7 +390,7 @@
     "avv": {
       "title": "Vertrag zur Auftragsverarbeitung",
       "lead": "Für die gehostete Plattform ist der Kunde Verantwortlicher und metadist die Auftragsverarbeiterin.",
-      "draft": "Der Text unten ist die Vorlage vom 6. November 2026. Er ist noch nicht vom Datenschutzbeauftragten gegengezeichnet und ersetzt keinen unterschriebenen Vertrag.",
+      "draft": "Der Text unten ist die Vorlage vom 6. November 2026. Die Geschäftsführung hat ihn noch nicht gegengezeichnet. In den Firmendaten ist kein Datenschutzbeauftragter benannt. Er ersetzt keinen unterschriebenen Vertrag.",
       "points": [
         "Er gilt für web.synaplan.com, nicht automatisch für eine eigene Installation.",
         "Er nennt Gegenstand, Daten, Betroffene, Weisungen, Löschung und die Liste der Unterauftragnehmer.",
@@ -425,7 +426,7 @@
         },
         {
           "title": "7. Vertraulichkeit",
-          "body": "Personen, die Daten sehen, sind zur Vertraulichkeit verpflichtet."
+          "body": "Personen, die Daten sehen, sind zur Vertraulichkeit verpflichtet. Das gilt für Beschäftigte der Auftragnehmerin und für Personen bei einem Unterauftragnehmer, soweit sie diese Daten sehen."
         },
         {
           "title": "8. Sicherheit",
@@ -433,7 +434,7 @@
         },
         {
           "title": "9. Unterauftragnehmer",
-          "body": "Die Unterauftragnehmer stehen in der Liste auf dieser Seite. Ein neuer Name wird auf der Seite veröffentlicht, bevor er Daten sieht. Der Auftraggeber kann widersprechen. Dann suchen beide eine andere Lösung oder beenden den Vertrag."
+          "body": "Die Unterauftragnehmer stehen in der Liste auf dieser Seite. Ein neuer Name wird auf der Seite veröffentlicht, bevor er Daten sieht. Der Auftraggeber kann widersprechen. Dann suchen beide eine andere Lösung oder beenden den Vertrag. Die Auftragnehmerin bleibt für die Pflichten eines Unterauftragnehmers verantwortlich."
         },
         {
           "title": "10. Rechte der betroffenen Personen",
@@ -441,7 +442,7 @@
         },
         {
           "title": "11. Löschung",
-          "body": "Nach dem Ende des Vertrags werden die Kontodaten gelöscht, soweit kein Gesetz das Aufbewahren verlangt. Der Auftraggeber kann vorher exportieren."
+          "body": "Nach dem Ende des Vertrags werden die Kontodaten gelöscht, soweit kein Gesetz das Aufbewahren verlangt. Der Auftraggeber kann vorher exportieren. Auf Anfrage bestätigt die Auftragnehmerin die Löschung schriftlich."
         },
         {
           "title": "12. Nachweis",
@@ -454,6 +455,14 @@
         {
           "title": "14. Eigenbetrieb",
           "body": "Betreibt der Auftraggeber Synaplan selbst, ist die metadist data management GmbH nicht Auftragsverarbeiterin der Inhalte. Sieht ihr Personal im Support in das System, braucht das einen eigenen kurzen Vertrag."
+        },
+        {
+          "title": "15. Verletzung des Schutzes",
+          "body": "Stellt die Auftragnehmerin eine Verletzung des Schutzes personenbezogener Daten fest, informiert sie den Auftraggeber ohne schuldhaftes Zögern. Soweit bekannt, nennt sie die Art der Verletzung, die ungefähre Zahl der betroffenen Personen und Datensätze, die wahrscheinlichen Folgen und die ergriffenen Maßnahmen. So kann der Auftraggeber seine Frist von 72 Stunden einhalten."
+        },
+        {
+          "title": "16. Folgenabschätzung",
+          "body": "Braucht der Auftraggeber eine Datenschutz-Folgenabschätzung oder eine Konsultation der Aufsichtsbehörde, gibt die Auftragnehmerin die Informationen, die sie über diese Verarbeitung hat."
         }
       ]
     },
@@ -491,7 +500,7 @@
         "Es gibt noch keinen externen Pentest, kein ISO-27001-Zertifikat und kein BSI-C5-Testat.",
         "Die Container-Images sind noch nicht signiert, und eine SBOM veröffentlichen wir noch nicht.",
         "Wir behaupten keine Verschlüsselung der Festplatten und keine zweite Kopie jedes Suchindex.",
-        "Eine Prüfung dieser Liste durch den Datenschutzbeauftragten steht noch aus."
+        "Die Geschäftsführung hat diese Liste noch nicht gegengezeichnet. Ein Datenschutzbeauftragter ist in den Firmendaten nicht benannt."
       ]
     },
     "processors": {
@@ -598,11 +607,12 @@
     "availability": {
       "title": "Verfügbarkeit",
       "lead": "Das ist die Zusage für die gehostete Plattform. Eine Vertragsstrafe steht im Angebot, nicht auf dieser Seite.",
+      "statusLink": "Statusseite öffnen",
       "items": [
         "Ziel: 99,5 Prozent im Kalendermonat für web.synaplan.com, ohne angekündigte Wartung.",
         "Wartung kündigen wir mindestens 14 Tage vorher an, außerhalb von Montag bis Freitag, 07:00 bis 18:00 Uhr (Europa/Berlin).",
         "Support antwortet innerhalb eines Werktags.",
-        "Eine eigene Statusseite gibt es noch nicht.",
+        "Ob web.synaplan.com gerade antwortet, steht auf der Statusseite. Einen gemessenen Monatsverlauf veröffentlichen wir nicht.",
         "Wer Synaplan selbst betreibt, trägt die Verfügbarkeit selbst."
       ]
     },
@@ -622,11 +632,42 @@
         "Externer Pentest: vorgesehen für das erste Quartal 2027, noch nicht beauftragt.",
         "ISO 27001 und BSI C5: nicht vorhanden.",
         "Signierte Images und SBOM: vorgesehen, noch nicht veröffentlicht.",
-        "Öffentliche Statusseite: nicht vorhanden."
+        "Gemessene Verfügbarkeit über Monate: nicht veröffentlicht. Die Statusseite zeigt nur, ob der Dienst gerade antwortet."
       ],
       "privacyBefore": "Die Datenschutzerklärung der Marketing-Website steht auf",
       "privacy": "synaplan.com",
       "contactBefore": "Fragen zu dieser Seite"
     }
+  },
+  "status": {
+    "meta": {
+      "title": "Status der gehosteten Plattform – Synaplan",
+      "description": "Ob web.synaplan.com gerade antwortet. Kein Monatsverlauf und keine gemessene Verfügbarkeit."
+    },
+    "hero": {
+      "kicker": "Gehostete Plattform",
+      "title": "Antwortet der Dienst gerade?",
+      "lead": "Diese Seite fragt web.synaplan.com einmal, ob er eine Anfrage annehmen kann. Sie zeigt keinen Verlauf und keine Prozentzahl für den Monat."
+    },
+    "probe": {
+      "checking": "Prüfung läuft.",
+      "up": "web.synaplan.com antwortet.",
+      "down": "web.synaplan.com antwortet gerade nicht.",
+      "unknown": "Die Prüfung hat den Dienst nicht erreicht. Das ist kein festgestellter Ausfall."
+    },
+    "meansTitle": "Was die Zeile bedeutet",
+    "means": [
+      "Antwortet: der Server hat die Bereitschaftsprüfung bestanden.",
+      "Antwortet nicht: die Prüfung kam zurück und war nicht in Ordnung.",
+      "Nicht möglich: die Prüfung hat web.synaplan.com nicht erreicht. Das kann am Weg zwischen dieser Website und dem Dienst liegen."
+    ],
+    "limitsTitle": "Was diese Seite nicht ist",
+    "limits": [
+      "Sie ist kein gemessener Monatsbericht. Das Ziel von 99,5 Prozent steht auf der Vertrauensseite und ist eine Zusage, keine gemessene Zahl.",
+      "Sie speichert keine Störung und keine Wartung.",
+      "Wartung kündigen wir den Kunden mindestens 14 Tage vorher an, außerhalb von Montag bis Freitag, 07:00 bis 18:00 Uhr (Europa/Berlin).",
+      "Wer Synaplan selbst betreibt, sieht hier nur den gehosteten Dienst."
+    ],
+    "trustLink": "Zusage und Wartungsfenster"
   }
 }

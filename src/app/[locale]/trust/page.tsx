@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { alternatesFor } from "@/lib/seo";
 import { LINKS, privacyPolicyUrl } from "@/lib/constants";
+import { Link } from "@/i18n/navigation";
 import { PageHero, Section, SectionHeading } from "@/components/page-shell";
 
 const PATH = "/trust";
@@ -212,6 +213,11 @@ export default async function TrustPage({
 
           <Block id="availability" title={t("availability.title")} lead={t("availability.lead")}>
             <BulletList items={availability} />
+            <p className="mt-4 text-base leading-relaxed text-foreground">
+              <Link href="/status" className="font-semibold text-[#002c92] underline underline-offset-4">
+                {t("availability.statusLink")}
+              </Link>
+            </p>
           </Block>
 
           <Block id="access" title={t("access.title")} lead={t("access.lead")}>

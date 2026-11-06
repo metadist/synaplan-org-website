@@ -16,6 +16,7 @@ export function SiteFooter() {
         { label: t("nav.integrations"), href: "/integrations" },
         { label: t("nav.contact"), href: "/contact" },
         { label: t("footer.trust"), href: "/trust" },
+        { label: t("footer.status"), href: "/status" },
       ],
     },
     {
@@ -85,6 +86,12 @@ export function SiteFooter() {
               className="text-xs text-neutral-400 transition-colors hover:text-white"
             >
               {t("footer.trust")}
+            </Link>
+            <Link
+              href="/status"
+              className="text-xs text-neutral-400 transition-colors hover:text-white"
+            >
+              {t("footer.status")}
             </Link>
             <Link
               href="/imprint"
