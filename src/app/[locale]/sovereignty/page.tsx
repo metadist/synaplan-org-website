@@ -31,6 +31,7 @@ export default async function SovereigntyPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("sovereignty");
+  const footer = await getTranslations("footer");
 
   const intro = t.raw("intro") as string[];
   const risks = t.raw("risks") as Risk[];
@@ -73,6 +74,12 @@ export default async function SovereigntyPage({
             className="btn-figma-primary inline-flex items-center justify-center rounded-xl px-7 py-3 text-base font-semibold text-white transition-opacity hover:opacity-95"
           >
             {t("next.cta")}
+          </Link>
+          <Link
+            href="/trust"
+            className="inline-flex min-h-11 items-center text-sm font-semibold text-[#002c92] underline underline-offset-4"
+          >
+            {footer("trust")}
           </Link>
         </div>
       </Section>

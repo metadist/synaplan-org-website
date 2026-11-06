@@ -15,6 +15,7 @@ export function SiteFooter() {
         { label: t("nav.openSource"), href: "/open-source" },
         { label: t("nav.integrations"), href: "/integrations" },
         { label: t("nav.contact"), href: "/contact" },
+        { label: t("footer.trust"), href: "/trust" },
       ],
     },
     {
@@ -79,6 +80,12 @@ export function SiteFooter() {
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
           <p className="text-xs text-neutral-500">{t("footer.copyright", { year })}</p>
           <div className="flex items-center gap-4">
+            <Link
+              href="/trust"
+              className="text-xs text-neutral-400 transition-colors hover:text-white"
+            >
+              {t("footer.trust")}
+            </Link>
             <Link
               href="/imprint"
               className="text-xs text-neutral-400 transition-colors hover:text-white"
